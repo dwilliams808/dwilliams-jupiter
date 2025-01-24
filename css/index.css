@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(215, 255, 203);
+  }
+  
+
+
+  h1 {
+    color: rgb(206, 95, 178);
+    text-align: center;
+    border-style: double;
+    border-width: 10px;
+  }
+
+  h2 {
+    color: rgb(250, 150, 225);
+    text-align: center;
+  }
+
+  h3 {
+    color: rgb(255, 185, 238);
+    text-align: center;
+  }
+  
+
+
+  p {
+    border: 2px solid black;
+    outline: #000000 solid 10px;
+    margin: auto;  
+    padding: 20px;
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+
+
+
+
+   /* unvisited link */
+a:link {
+    color: rgb(141, 209, 255);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(8, 83, 145);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(247, 127, 187);
+  }
+
+
+
+
+  ul {
+    list-style-type: circle;
+  }
