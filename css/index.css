@@ -6,6 +6,51 @@ nav {
     scroll-behavior: smooth;
 }
 
+/* mobile phone media query*/
+body {
+  margin: 14px;
+  font-size: smaller;
+  background-color: rgb(228, 255, 255);
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 3px;
+  }
+}
+
+/* tablet media query*/
+body {
+  margin: 20px;
+  font-size: small;
+  background-color: #f8dbf1;
+}
+
+@media (max-width: 800px) {
+  body {
+    margin: 8px;
+  }
+}
+
+
+/* desktop media query*/
+body {
+  margin: 24px;
+  font-size: large;
+  background-color: rgb(255, 250, 243);
+}
+
+@media (max-width: 1000px) {
+  body {
+    margin: 12px;
+  }
+}
+
+
+
+
+
+
 
 .header {
     position: sticky;
@@ -25,17 +70,15 @@ nav {
 
 
   .Contact-LinkedIn {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 50px 50px;
     gap:20px;
-    flex-wrap: wrap;
   }
 
   .Contact-Github {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 50px 50px;
     gap:20px;
-    flex-wrap: wrap;
   }
      
 
