@@ -1,0 +1,44 @@
+nav {
+    display: block;
+  }
+
+  html {
+    scroll-behavior: smooth;
+}
+
+
+.header {
+    position: sticky;
+    top: 0;
+    padding: 10px 16px;
+    background: #f79ae2;
+    color: #f1f1f1;
+  }
+
+  .Experience-Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap; 
+  }
+
+
+  .Contact-LinkedIn {
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    flex-wrap: wrap;
+  }
+
+  .Contact-Github {
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    flex-wrap: wrap;
+  }
+     
+
+
+
+
