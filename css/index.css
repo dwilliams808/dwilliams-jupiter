@@ -11,6 +11,7 @@ body {
   margin: 14px;
   font-size: smaller;
   background-color: rgb(228, 255, 255);
+  font-family: Arial, sans-serif;
 }
 
 @media (max-width: 600px) {
@@ -65,7 +66,7 @@ ul {
     position: sticky;
     top: 0;
     padding: 10px 16px;
-    background: #f79ae2;
+    background: #f79abe;
     color: #f1f1f1;
   }
 
@@ -89,6 +90,22 @@ ul {
     grid-template-columns: 50px 50px;
     gap:20px;
   }
+
+  
+button {
+  background-color: #e97fbd;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#LeaveAMessage {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
      
 
 
