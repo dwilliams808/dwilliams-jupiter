@@ -67,18 +67,22 @@ document.addEventListener('DOMContentLoaded', () => {
         const repositories = data;
         console.log(repositories);  
   
+
         const projectSection = document.getElementById("Projects");
         const projectList = projectSection.querySelector('ul');
   
+
         for (let i = 0; i < repositories.length; i++) {
           const project = document.createElement('li');  
           project.textContent = repositories[i].name;    
           projectList.appendChild(project);           
         }
       })
+
       .catch(error => {
         console.error('An error occurred:', error); 
       });
+      
   });
   
 
