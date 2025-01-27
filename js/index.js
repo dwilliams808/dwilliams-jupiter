@@ -54,3 +54,34 @@ messageForm.addEventListener("submit", function(event) {
     messageForm.reset();
 
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    fetch('https://api.github.com/users/dwilliams808/repos')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Request failed');
+        }
+        return response.json(); 
+      })
+      .then(data => {
+        const repositories = data;
+        console.log(repositories);  
+  
+        const projectSection = document.getElementById("Projects");
+        const projectList = projectSection.querySelector('ul');
+  
+        for (let i = 0; i < repositories.length; i++) {
+          const project = document.createElement('li');  
+          project.textContent = repositories[i].name;    
+          projectList.appendChild(project);           
+        }
+      })
+      .catch(error => {
+        console.error('An error occurred:', error); 
+      });
+  });
+  
+
+
+
+  
